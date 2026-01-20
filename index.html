@@ -1,285 +1,221 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Eda Melike Ersoy | Portfolio</title>
-  <meta name="description" content="Computer Engineering Student exploring AI, Robotics & Software through real projects. Team DIANA IRIS AI subteam. YOLO public demo." />
-  <link rel="stylesheet" href="assets/style.css" />
+<meta charset="utf-8">
+<title>Eda Melike Ersoy | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body{
+  margin:0;
+  font-family: system-ui, Arial, sans-serif;
+  background:#0b0f17;
+  color:#eef2ff;
+}
+a{color:#7c9cff;text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+.container{
+  width:min(1000px,90%);
+  margin:auto;
+}
+
+header{
+  padding:60px 0 40px;
+  border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+h1{
+  font-size:42px;
+  line-height:1.1;
+  margin-bottom:10px;
+}
+
+.subtitle{
+  color:#aab0c3;
+  max-width:700px;
+}
+
+.section{
+  padding:50px 0;
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+h2{
+  margin-bottom:15px;
+  font-size:28px;
+}
+
+.card{
+  background:#111827;
+  padding:20px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,.08);
+  margin-bottom:20px;
+}
+
+ul{
+  padding-left:20px;
+  color:#aab0c3;
+}
+
+.tag{
+  display:inline-block;
+  background:#1e293b;
+  padding:6px 12px;
+  border-radius:999px;
+  font-size:12px;
+  color:#aab0c3;
+  margin-left:10px;
+}
+
+footer{
+  padding:30px 0;
+  text-align:center;
+  color:#aab0c3;
+  font-size:14px;
+}
+
+</style>
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container">
-      <nav class="nav">
-        <a class="brand" href="#top">Eda Ersoy</a>
-        <div class="nav-links">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
-        </div>
-        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
-      </nav>
 
-      <div class="hero" id="top">
-        <p class="badge">Politecnico di Torino • Computer Engineering</p>
-        <h1>Computer Engineering Student exploring <span class="accent">AI</span>, <span class="accent">Robotics</span> & <span class="accent">Software</span> through real projects.</h1>
-        <p class="subtitle">
-          I’m currently a member of <strong>Team DIANA — IRIS (AI Subteam)</strong>, learning object detection workflows for robotic perception.
-        </p>
+<header>
+  <div class="container">
+    <h1>
+      Computer Engineering Student exploring 
+      <span style="color:#7c9cff">AI</span>, 
+      <span style="color:#7c9cff">Robotics</span> & 
+      <span style="color:#7c9cff">Software</span>
+    </h1>
+    <p class="subtitle">
+      Politecnico di Torino — learning through real projects and robotics team experience.
+    </p>
+    <p class="subtitle">
+      📧 ersoyedamelike@gmail.com • 
+      <a href="https://github.com/edaersoy" target="_blank">GitHub</a> • 
+      <a href="#" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+</header>
 
-        <div class="cta-row">
-          <a class="btn primary" href="#projects">See Projects</a>
-          <a class="btn" href="#contact">Contact</a>
-        </div>
-
-        <div class="links-row">
-          <!-- TODO: Replace # with your real links -->
-          <a class="link" href="mailto:ersoyedamelike@gmail.com">ersoyedamelike@gmail.com</a>
-          <span class="dot">•</span>
-          <a class="link" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
-          <span class="dot">•</span>
-          <a class="link" href="https://github.com/edaersoy" target="_blank" rel="noreferrer">GitHub</a>
-          <span class="dot">•</span>
-          <a class="link" href="#" target="_blank" rel="noreferrer">CV (PDF)</a>
-        </div>
-      </div>
+<section class="section">
+  <div class="container">
+    <h2>About</h2>
+    <div class="card">
+      <p>
+        I’m a Computer Engineering student at <strong>Politecnico di Torino</strong>, exploring practical applications in 
+        <strong>AI, robotics, and software engineering</strong>.
+      </p>
+      <p>
+        I’m currently a member of <strong>Team DIANA — IRIS (AI Subteam)</strong>, where I’m learning how object detection is developed 
+        for robotic perception: from data collection and annotation to YOLO model training and evaluation.
+      </p>
+      <p style="color:#aab0c3">
+        Since team code is private, I build standalone public demos that reflect the same workflow without sharing internal team code or data.
+      </p>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main>
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-title">
-          <h2>About</h2>
-          <p>Clear, honest, and recruiter-friendly.</p>
-        </div>
+<section class="section">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Programming:</strong> Python</li>
+        <li><strong>Computer Vision:</strong> Object Detection, OpenCV</li>
+        <li><strong>Deep Learning:</strong> YOLO training (hands-on)</li>
+        <li><strong>Workflow:</strong> Dataset annotation, dataset preparation</li>
+        <li><strong>Engineering:</strong> SolidWorks</li>
+        <li><strong>Tools:</strong> Git, GitHub</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-        <div class="card">
-          <p>
-            I’m a Computer Engineering student at <strong>Politecnico di Torino</strong>, exploring practical applications in
-            <strong>AI, robotics, and software engineering</strong>.
-          </p>
-          <p>
-            In <strong>Team DIANA — IRIS (AI Subteam)</strong>, I’m learning how object detection is developed for robotic perception:
-            <strong>data collection</strong>, <strong>bounding box annotation</strong>, <strong>dataset preparation</strong>, and
-            <strong>YOLO model training & evaluation</strong>.
-          </p>
-          <p class="muted">
-            Team code and datasets are private, so I publish <strong>standalone public demos</strong> that reflect the same workflow
-            (dataset → training → evaluation → inference) without sharing internal code or data.
-          </p>
-        </div>
-      </div>
-    </section>
+<section class="section">
+  <div class="container">
+    <h2>Projects</h2>
 
-    <section class="section" id="skills">
-      <div class="container">
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>Only what I can discuss confidently.</p>
-        </div>
+    <div class="card">
+      <h3>
+        YOLO Object Detection — Public Demo 
+        <span class="tag">In progress • Jan 2026</span>
+      </h3>
+      <p style="color:#aab0c3">
+        A personal project where I apply what I’m learning in Team DIANA to build an end-to-end object detection workflow 
+        with public, reproducible code.
+      </p>
 
-        <div class="grid grid-2">
-          <div class="card">
-            <h3>Technical</h3>
-            <ul class="bullets">
-              <li><strong>Programming:</strong> Python</li>
-              <li><strong>Computer Vision:</strong> Object Detection, OpenCV</li>
-              <li><strong>Deep Learning:</strong> YOLO training (hands-on)</li>
-              <li><strong>Workflow:</strong> Dataset annotation, basic experiment tracking</li>
-              <li><strong>Tools:</strong> Git, GitHub</li>
-            </ul>
-          </div>
+      <ul>
+        <li>Collecting images and annotating bounding boxes</li>
+        <li>Preparing datasets (structure, splits, sanity checks)</li>
+        <li>Training YOLO models and iterating on results</li>
+        <li>Evaluating performance (mAP, precision/recall)</li>
+        <li>Running inference demos on video / webcam</li>
+      </ul>
 
-          <div class="card">
-            <h3>Engineering</h3>
-            <ul class="bullets">
-              <li><strong>CAD:</strong> SolidWorks</li>
-              <li><strong>Teamwork:</strong> robotics teams (UAV/ROV/FRC)</li>
-              <li><strong>Leadership:</strong> team captain, club president</li>
-              <li><strong>Languages:</strong> Turkish (Native), English (Fluent)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
+      <p style="color:#aab0c3">
+        Key learning: annotation quality and controlled experiments matter more than raw dataset size.
+      </p>
+    </div>
 
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p>Public demos that prove the workflow.</p>
-        </div>
+  </div>
+</section>
 
-        <div class="grid grid-2">
-          <article class="card project">
-            <div class="project-head">
-              <h3>YOLO Object Detection — Public Demo</h3>
-              <span class="tag">In progress • Jan 2026</span>
-            </div>
-            <p>
-              A personal project where I apply what I’m learning in Team DIANA to build an end-to-end object detection workflow
-              with public, reproducible code (without sharing team code/data).
-            </p>
+<section class="section">
+  <div class="container">
+    <h2>Experience</h2>
 
-            <div class="project-grid">
-              <div>
-                <h4>What I’m doing</h4>
-                <ul class="bullets">
-                  <li>Collecting images and annotating bounding boxes</li>
-                  <li>Preparing dataset (structure, splits, sanity checks)</li>
-                  <li>Training YOLO models and iterating on results</li>
-                  <li>Evaluating performance (mAP, precision/recall) + error analysis</li>
-                  <li>Running inference demo on video/webcam</li>
-                </ul>
-              </div>
-              <div>
-                <h4>Key learnings</h4>
-                <ul class="bullets">
-                  <li>Annotation consistency often beats “more data”</li>
-                  <li>Small controlled changes + evaluation = faster progress</li>
-                  <li>Good experiment notes make results repeatable</li>
-                </ul>
-              </div>
-            </div>
+    <div class="card">
+      <h3>Team DIANA — IRIS (AI Subteam)</h3>
+      <p style="color:#aab0c3">AI / Computer Vision Member • Oct 2025 – Present</p>
+      <ul>
+        <li>Working on object detection workflow: image collection, annotation, dataset preparation, YOLO training.</li>
+        <li>Learning how detection results are evaluated for robotic perception.</li>
+        <li>Building public demos to reflect team learnings without sharing internal code.</li>
+      </ul>
+    </div>
 
-            <div class="project-actions">
-              <!-- TODO: Replace repo link when ready -->
-              <a class="btn small" href="#" target="_blank" rel="noreferrer">Repo</a>
-              <a class="btn small ghost" href="#" target="_blank" rel="noreferrer">Demo / Results</a>
-            </div>
-          </article>
+    <div class="card">
+      <h3>SARDES UAV Team</h3>
+      <p style="color:#aab0c3">Team Captain / Mentor</p>
+      <ul>
+        <li>Led planning and coordination for UAV competition work.</li>
+        <li>Contributed to mechanical design and CAD modeling using SolidWorks.</li>
+      </ul>
+    </div>
 
-          <article class="card project">
-            <div class="project-head">
-              <h3>Robotics Teams — Competition Experience</h3>
-              <span class="tag">UAV • ROV • FRC</span>
-            </div>
-            <p>
-              Multidisciplinary teamwork experience across robotics competitions, with leadership and engineering contributions.
-            </p>
+    <div class="card">
+      <h3>POSEI ROV Team</h3>
+      <p style="color:#aab0c3">Mechanical & Organization / Mentor</p>
+      <ul>
+        <li>Contributed to underwater robotics mechanical design and team operations.</li>
+      </ul>
+    </div>
 
-            <ul class="bullets">
-              <li><strong>SARDES UAV:</strong> Team Captain / Mentor (finalist)</li>
-              <li><strong>POSEI ROV:</strong> Mechanical & Organization / Mentor (finalist)</li>
-              <li><strong>Cymurghs FRC:</strong> Outreach & team support</li>
-              <li><strong>SolidWorks:</strong> mechanical modeling exposure</li>
-            </ul>
+  </div>
+</section>
 
-            <div class="project-actions">
-              <a class="btn small ghost" href="#experience">See experience</a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
+<section class="section">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="card">
+      <p>
+        I’m open to internships and collaborations in AI, robotics, perception, and software engineering.
+      </p>
+      <p>
+        📧 <a href="mailto:ersoyedamelike@gmail.com">ersoyedamelike@gmail.com</a>
+      </p>
+    </div>
+  </div>
+</section>
 
-    <section class="section" id="experience">
-      <div class="container">
-        <div class="section-title">
-          <h2>Experience</h2>
-          <p>Focused on impact, without overclaiming.</p>
-        </div>
+<footer>
+  © 2026 Eda Melike Ersoy • Built with GitHub Pages
+</footer>
 
-        <div class="timeline">
-          <div class="item">
-            <div class="item-top">
-              <h3>Team DIANA — IRIS (AI Subteam) • AI / Computer Vision Member</h3>
-              <span class="tag">Oct 2025 – Present</span>
-            </div>
-            <ul class="bullets">
-              <li>Working on object detection workflow: image collection, annotation, dataset preparation, YOLO training.</li>
-              <li>Learning how detection results are evaluated and iterated for robotic perception tasks.</li>
-              <li>Building standalone public demos to reflect learnings without sharing internal team code/data.</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <div class="item-top">
-              <h3>SARDES UAV Team • Team Captain / Mentor</h3>
-              <span class="tag">Oct 2021 – Jun 2024</span>
-            </div>
-            <ul class="bullets">
-              <li>Led planning and coordination for UAV competition work.</li>
-              <li>Contributed to mechanical design and CAD modeling (SolidWorks).</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <div class="item-top">
-              <h3>POSEI ROV Team • Mechanical & Organization / Mentor</h3>
-              <span class="tag">Oct 2022 – Jun 2024</span>
-            </div>
-            <ul class="bullets">
-              <li>Contributed to underwater robotics mechanical design and team operations.</li>
-              <li>Supported team communication and project organization.</li>
-            </ul>
-          </div>
-
-          <div class="item">
-            <div class="item-top">
-              <h3>MFL Entrepreneurship Club • President</h3>
-              <span class="tag">Sep 2022 – Jun 2023</span>
-            </div>
-            <ul class="bullets">
-              <li>Organized alumni talks and launched a student magazine.</li>
-              <li>Led event coordination and club initiatives.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact">
-      <div class="container">
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Open to internships and collaborations.</p>
-        </div>
-
-        <div class="grid grid-2">
-          <div class="card">
-            <h3>Let’s connect</h3>
-            <p class="muted">
-              I’m open to internships and collaborations in <strong>AI, robotics, perception, and software engineering</strong>.
-            </p>
-            <div class="contact-list">
-              <a class="btn" href="mailto:ersoyedamelike@gmail.com">Email</a>
-              <a class="btn ghost" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
-              <a class="btn ghost" href="https://github.com/edaersoy" target="_blank" rel="noreferrer">GitHub</a>
-            </div>
-          </div>
-
-          <form class="card" onsubmit="return false;">
-            <h3>Quick message</h3>
-            <p class="muted">This form is local-only (no backend). Use the email button to reach me.</p>
-            <label>
-              Your name
-              <input type="text" placeholder="Name" />
-            </label>
-            <label>
-              Topic
-              <input type="text" placeholder="Internship / Collaboration / Question" />
-            </label>
-            <label>
-              Message
-              <textarea rows="4" placeholder="Write your message..."></textarea>
-            </label>
-            <button class="btn primary" type="button" onclick="window.location.href='mailto:ersoyedamelike@gmail.com'">
-              Email me
-            </button>
-          </form>
-        </div>
-
-        <footer class="footer">
-          <p>© <span id="year"></span> Eda Melike Ersoy • Built with GitHub Pages</p>
-        </footer>
-      </div>
-    </section>
-  </main>
-
-  <script src="assets/main.js"></script>
 </body>
 </html>
